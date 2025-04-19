@@ -1,7 +1,7 @@
 {
-  "name": "template-vite-react-ts-tailwind",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vite-react-ts-tailwind-boilerplate",
+  "license": "MIT",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,15 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@nabla/vite-plugin-eslint": "2.0.4",
     "@types/eslint": "8.56.12",
     "@types/node": "20.12.13",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
     "@typescript-eslint/eslint-plugin": "6.13.1",
     "@typescript-eslint/parser": "6.13.1",
     "@vitejs/plugin-react-swc": "3.7.0",
@@ -32,9 +32,10 @@
     "eslint-plugin-react-refresh": "0.4.4",
     "postcss": "8.4.33",
     "prettier": "3.1.0",
-    "prettier-plugin-tailwindcss": "0.4.1",
-    "tailwindcss": "3.4.1",
+    "prettier-plugin-tailwindcss": "0.5.0",
+    "tailwindcss": "3.4.4",
     "typescript": "5.2.2",
-    "vite": "5.4.15"
-  }
+    "vite": "5.1.0"
+  },
+  "packageManager": "pnpm@10.7.1"
 }
